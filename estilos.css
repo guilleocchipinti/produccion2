@@ -2,7 +2,6 @@ body {
     background-color: #47A3FB;
 width: 100%;
 height: 100%;
-cursor:none;
   }
   
 
@@ -120,6 +119,10 @@ footer{
    padding-left: 0; 
 }
 
+.row{
+   text-align: center;
+}
+
 .nav-link:hover{
    color: #FFD800;
 }
@@ -128,64 +131,62 @@ footer {
    color: #e7e5de; 
    padding: 4%; 
    height: 250px;
-   font-family: 'Sora',sans-serif;
+   font-family: 'montserrat',sans-serif;
  }
  
  .footer-content {
    margin: 0 auto; 
+   justify-content: center;
  
  }
 
- #custom-cursor {
-   position: absolute;
-   width: 40px;
-   height: 40px; 
-   pointer-events: none;
-   background-image: url(resourses/toy.png);
-   background-size: contain;
-   background-repeat: no-repeat;
-   z-index: 9999;
-}
 
+ .row{
+text-align: center;
+ }
 .display-4{
    padding-bottom: 10%;
 }
 .bienvenida {
    margin-top: 20px;
 }
+
+.mt-5{
+   margin-top: 0!important;
+}
+.list-unstyled a{
+   text-decoration: underline;
+   color: #EAEAEA;
+}
+.list-unstyled a:hover{
+   color:#FFD800
+}
+       
+.custom-logo {
+    width: 15%; 
+    transform: rotate(-20deg); 
+}
+.ribbon a span:hover{
+   color: #F1050C;
+}
+
+.bienvenida {
+    margin-top: 20px; 
+}
+
+
+h1 {
+    font-size: 2.5rem; }
+
+
+button:not(:disabled) {
+   cursor: pointer;
+   float: right;
+margin-top: 2%;}
+
 @media (min-width:1260px){
    h1{
       font-size: 4.5rem!important;
    }
 }
 
-@media (min-width: 1192px) {
-   .marciano {
-       display: block;
-       float: right; 
-     
-   }
-
-   .bienvenida {
-       text-align: right; 
-   }
-}
-.mt-5{
-   margin-top: 0!important;
-}
-
-       
-.custom-logo {
-    width: 15%; /* Tamaño personalizado, ajusta según tus necesidades */
-    transform: rotate(-20deg); /* Rotar a la izquierda */
-}
-
-
-.bienvenida {
-    margin-top: 20px; /* Espacio entre la imagen y el texto */
-}
-
-
-h1 {
-    font-size: 2.5rem; /* Ajusta el tamaño según tus necesidades */
-}
