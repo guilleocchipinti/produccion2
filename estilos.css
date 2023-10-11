@@ -21,6 +21,7 @@ height: 100%;
       margin-top: 0;
       height:min-content;
     z-index: 2; 
+    position: sticky;
   }
   .navbar-nav {
    justify-content: center;
@@ -71,12 +72,15 @@ color: #044D98;
     background-color: #EAEAEA;
  }
 
-
+.pixar img{
+   width: 15%;
+}
  table tr td{
    text-align:-moz-center;
  }
  .box {
-   width: 60%; height: 250px;
+   width: 60%; 
+   height: 250px;
    position: relative;
  }
 
@@ -106,7 +110,7 @@ color: #044D98;
      width:100%;
      display: block;
      background: #FFD800;
-     color:#47A3FB;
+     color:#F1050C;
      position: absolute;
      top: 22%;
      right: -32px;
@@ -130,7 +134,7 @@ footer{
 footer {
    color: #e7e5de; 
    padding: 4%; 
-   height: 250px;
+   height: 300px;
    font-family: 'montserrat',sans-serif;
  }
  
@@ -167,11 +171,11 @@ text-align: center;
     transform: rotate(-20deg); 
 }
 .ribbon a span:hover{
-   color: #F1050C;
+   color: #044D98;
 }
 
 .bienvenida {
-    margin-top: 20px; 
+  margin-top: 0!important;
 }
 
 
@@ -184,9 +188,18 @@ button:not(:disabled) {
    float: right;
 margin-top: 2%;}
 
-@media (min-width:1260px){
-   h1{
-      font-size: 4.5rem!important;
+
+.disney{
+   width: 10%;
+}
+@media (min-width: 320px) and (max-width: 991px) {
+   .navbar-expand-lg .container-fluid {
+      display: block;
+
    }
 }
-
+@media (min-width: 1260px) {
+   h1 {
+      font-size: 4.5rem !important;
+   }
+}
