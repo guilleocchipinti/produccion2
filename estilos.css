@@ -197,6 +197,9 @@ margin-top: 2%;}
       display: block;
 
    }
+   .disney{
+      width: 25%;
+   }
 }
 @media (min-width: 1260px) {
    h1 {
