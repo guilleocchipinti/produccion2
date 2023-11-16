@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Toy Story</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gill+Sans+Display&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/38d3f0f792.js" crossorigin="anonymous"></script>
+</head>
+<body class="shop">
+<div class="divisor"></div>
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img  id="bounce-logo" src="resourses/Toy_Story_logo.svg.png" alt="logo" class="img-fluid custom-logo">
+        </a>
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="resourses/pelota.png" alt="Menu" width="30" height="30">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item mx-2">
+                    <a class="nav-link fw-bold" href="shop.html">Shop</a>
+                </li>                
+                <li class="nav-item mx-2">
+                    <a class="nav-link fw-bold" href="toystoryland.html">TSL</a>
+                </li>
+                <li class="nav-item mx-2"> 
+                    <a class="nav-link fw-bold" href="dvds.html">DVDs</a>
+                </li> 
+                <li class="nav-item mx-2">              
+                    <a class="nav-link fw-bold" href="carrito.html">
+                        <i class="fas fa-shopping-bag" style="color: #9ce139;"></i>
+                    </a></li>
+                    <li class="nav-item mx-2">              
+                        <a class="nav-link fw-bold" href="micuenta.html">
+                            <i class="fas fa-user" style="color: #9ce139;"></i>
+                        </a>
+                         </li>
+                        
+
+                    
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-2">
+    <h2 class="text-center">Compra tus juguetes favoritos</h2>
+    <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card mx-auto">
+            
+<img
+src="resourses/woody.jpg"
+class="card-img-top img1"
+onmouseover="cambiarImagen(this, 'resourses/nenejugandowoody.png')"
+onmouseout="volverImagen(this, 'resourses/woody.jpg')"
+>
+
+                <div class="card-body">
+                    <div class="rating">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                  </div>
+                      <h5 class="card-title">Woody</h5>
+                      <p class="card-text">$19.99</p>
+                    
+                      <button class="dvdcarrito btn btn-primary">Add to Cart</button>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card mx-auto ">
+         
+                <img
+src="resourses/image-a7478ef9f3d74481a171aa4efc919322 (1).webp"
+class="card-img-top img1"
+onmouseover="cambiarImagen(this, 'resourses/nenejugandoconbuzz.png')"
+onmouseout="volverImagen(this, 'resourses/image-a7478ef9f3d74481a171aa4efc919322 (1).webp')"
+>
+              <div class="card-body">
+                <div class="rating">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+              </div>
+                  <h5 class="card-title">Buzz Lightyear</h5>
+                  <p class="card-text"> $24.99</p>
+                 
+                  <button class="dvdcarrito btn btn-primary">Add to Cart</button>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card mx-auto  js-scroll">
+            <img
+            src="resourses/jessie.jpg"
+            class="card-img-top img1"
+            onmouseover="cambiarImagen(this, 'resourses/nenejugandojessie.png')"
+            onmouseout="volverImagen(this, 'resourses/jessie.jpg')"
+            >
+         
+                  <div class="card-body">
+                    <div class="rating">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                  </div>
+                      <h5 class="card-title">Jessie</h5>
+                      <p class="card-text">$24.99</p>
+                      
+                      <button class="dvdcarrito btn btn-primary">Add to Cart</button>
+                  </div>
+              </div>
+          </div>
+
+  
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card mx-auto js-scroll">
+                <img
+            src="resourses/betty.webp"
+            class="card-img-top img1"
+            onmouseover="cambiarImagen(this, 'resourses/nenejugandobettyy.png')"
+            onmouseout="volverImagen(this, 'resourses/betty.webp')"
+            >
+    
+                <div class="card-body">
+                  <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                    <h5 class="card-title">Betty</h5>
+                    <p class="card-text">$24.99</p>
+                  
+                    <button class="dvdcarrito btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card mx-auto js-scroll">
+                <img
+                src="resourses/slinky.webp"
+                class="card-img-top img1"
+    
+                onmouseover="cambiarImagen(this, 'resourses/nenejugandoslinky.png')"
+                onmouseout="volverImagen(this, 'resourses/slinky.webp')"
+                >
+                <div class="card-body">
+                  <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                    <h5 class="card-title">Slinky</h5>
+                    <p class="card-text">$24.99</p>
+                   
+                    <button class="dvdcarrito btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card mx-auto js-scroll">
+                <img
+                src="resourses/46_617b2f4a-3aa8-4f2b-b1c2-08ebc41c1f1d_580x.webp"
+                class="card-img-top img1"
+      
+                onmouseover="cambiarImagen(this, '  resourses/nenejugandospacealien.png')"
+                onmouseout="volverImagen(this, 'resourses/46_617b2f4a-3aa8-4f2b-b1c2-08ebc41c1f1d_580x.webp')"
+                >
+                
+                <div class="card-body">
+                  <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                    <h5 class="card-title">Space Alien</h5>
+                    <p class="card-text">$24.99</p>
+                   
+                    <button class="dvdcarrito btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card mx-auto js-scroll">
+                <img
+                src="resourses/rex1.jpg"
+                class="card-img-top img1"
+        
+                onmouseover="cambiarImagen(this, 'resourses/nenejugandoconrex.png')"
+                onmouseout="volverImagen(this, 'resourses/rex1.jpg')"
+                >
+                <div class="card-body">
+                  <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                    <h5 class="card-title">Rex</h5>
+                    <p class="card-text">$24.99</p>
+                   
+                    <button class="dvdcarrito btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card mx-auto js-scroll">
+                <img
+                src="resourses/toy_forky1.webp"
+                class="card-img-top img1"
+        
+                onmouseover="cambiarImagen(this, 'resourses/nenejugandoconforky.png')"
+                onmouseout="volverImagen(this, 'resourses/toy_forky1.webp')"
+    >
+                <div class="card-body">
+                  <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                    <h5 class="card-title">Forky</h5>
+                    <p class="card-text">$24.99</p>
+                   
+                    <button class="dvdcarrito btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card mx-auto js-scroll">
+                <img
+                src="resourses/toy-story-tiro-al-blanco-coleccion-14596-default-1.jpg"
+                class="card-img-top img1"
+  
+                onmouseover="cambiarImagen(this, '              resourses/nenejugandocontiroalblanco.png')"
+                onmouseout="volverImagen(this, 'resourses/toy-story-tiro-al-blanco-coleccion-14596-default-1.jpg')">
+                <div class="card-body">
+                  <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                    <h5 class="card-title">Tiro Al Blanco</h5>
+                    <p class="card-text"> $24.99</p>
+                   
+                    <button class="dvdcarrito btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card mx-auto js-scroll">
+                <img
+                src="resourses/3664139.RS500x500.jpg"
+                class="card-img-top img1"
+        
+                onmouseover="cambiarImagen(this, 'resourses/nenejugandoconzurg.png')"
+                onmouseout="volverImagen(this, 'resourses/3664139.RS500x500.jpg')">
+          
+                <div class="card-body">
+                  <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                    <h5 class="card-title">Zurg</h5>
+                    <p class="card-text"> $24.99</p>
+                    
+                    <button class="dvdcarrito btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card mx-auto js-scroll">
+                <img
+                src="resourses/611oHcVbXPL.jpg"
+                class="card-img-top img1"
+
+                onmouseover="cambiarImagen(this, 'resourses/nenejugandoconcarasdepapa.png')"
+                onmouseout="volverImagen(this, 'resourses/611oHcVbXPL.jpg')">
+                <div class="card-body">
+                  <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                    <h5 class="card-title">Sr y Sra Cara de Papa</h5>
+                    <p class="card-text"> $24.99</p>
+                    
+                    <button class="dvdcarrito btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card mx-auto js-scroll">
+                <img
+                src=" resourses/figuras-basicas-toy-story-hamm.jpg"
+                class="card-img-top img1"
+                onmouseover="cambiarImagen(this, 'resourses/nenejugandoconhamm.png')"
+                onmouseout="volverImagen(this, 'resourses/figuras-basicas-toy-story-hamm.jpg')">
+             
+                <div class="card-body">
+                  <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                    <h5 class="card-title">Hamm</h5>
+                    <p class="card-text">$24.99</p>
+                   
+                    <button class="dvdcarrito btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card mx-auto js-scroll">
+                <img
+                src="resourses/FRICTIONCARS.png"
+                class="card-img-top img1"
+                onmouseover="cambiarImagen(this, 'resourses/nenejugandoconfrictioncars.png')"
+                onmouseout="volverImagen(this, 'resourses/FRICTIONCARS.png')">
+                <div class="card-body">
+                  <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                    <h5 class="card-title">Friction Cars</h5>
+                    <p class="card-text">$24.99</p>
+                    
+                    <button class="dvdcarrito btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card mx-auto js-scroll">
+                <img
+                src="resourses/descarga (2).jpeg"
+                class="card-img-top img1"
+
+                onmouseover="cambiarImagen(this, 'resourses/nenejugandoconbuzzytrixie.png')"
+                onmouseout="volverImagen(this, 'resourses/descarga (2).jpeg')">
+                <div class="card-body">
+                  <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                    <h5 class="card-title">Buzz y Trixie</h5>
+                    <p class="card-text">$24.99</p>
+                    
+                    <button class="dvdcarrito btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card mx-auto js-scroll">
+                <img
+                src="resourses/726459_101@3x.jpg"
+                class="card-img-top img1"
+
+                onmouseover="cambiarImagen(this, ' resourses/nenejugandoinfiniteblaster.png')"
+                onmouseout="volverImagen(this, 'resourses/726459_101@3x.jpg')">
+              <div class="card-body">
+                <div class="rating">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+            
+    
+              </div>
+                  <h5 class="card-title">Infinitive Blaster</h5>
+                  <p class="card-text">$24.99</p>
+                
+                  <button class="dvdcarrito btn btn-primary">Add to Cart</button>
+              </div>
+          </div>
+      </div>
+      </div>
+  </div>
+  <footer class="footer">
+    <div class="container text-center">
+        <img class="disney mx-auto" src="resourses/disney.png" alt="Disney Logo">
+        <div class="social-icons mb-3">
+            <a href="https://www.facebook.com/PixarToyStory/?locale=es_LA" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/toystory?lang=es" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/toystory/?hl=es" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class=" copyr mb-0">© 2023 TOY STORY</p>
+    </div>
+</footer>
+
+<script>
+    function cambiarImagen(elemento, nuevaImagen) {
+        elemento.src = nuevaImagen;
+    }
+
+    function volverImagen(elemento, imagenOriginal) {
+        elemento.src = imagenOriginal;
+
+        function addToCartClicked(title) {
+            alert('Añadido al carrito: ' + title);
+        }
+
+        const dvdCarritoButtons = document.getElementsByClassName('dvdcarrito');
+
+        for (let i = 0; i < dvdCarritoButtons.length; i++) {
+            dvdCarritoButtons[i].onclick = function() {
+                const title = this.parentElement.querySelector('.card-title').innerText;
+                addToCartClicked(title);
+            };
+        }
+    }
+</script>
+</body>
+</html>

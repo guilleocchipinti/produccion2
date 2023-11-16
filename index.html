@@ -8,36 +8,46 @@
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Gill+Sans+Display&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/38d3f0f792.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="homepage">
 <div class="divisor"></div>
-
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#index.html">
-            <img src="resourses/Toy_Story_logo.svg.png" alt="logo" class="img-fluid custom-logo">
+        <a class="navbar-brand" href="index.html">
+            <img  id="bounce-logo" src="resourses/Toy_Story_logo.svg.png" alt="logo" class="img-fluid custom-logo">
         </a>
         <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <img src="resourses/pelota.png" alt="Menu" width="30" height="30">
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item mx-2"> 
-                    <a class="nav-link fw-bold" href="#">Shop</a>
-                </li>
                 <li class="nav-item mx-2">
-                    <a class="nav-link fw-bold" href="#">TSL</a>
+                    <a class="nav-link fw-bold" href="shop.html">Shop</a>
+                </li>                
+                <li class="nav-item mx-2">
+                    <a class="nav-link fw-bold" href="toystoryland.html">TSL</a>
                 </li>
                 <li class="nav-item mx-2"> 
-                    <a class="nav-link fw-bold" href="#">DVDs</a>
+                    <a class="nav-link fw-bold" href="dvds.html">DVDs</a>
                 </li> 
-                <li class="nav-item mx-2">
-                    <a class="nav-link fw-bold" href="#">Clips</a>
-                </li> 
+                <li class="nav-item mx-2">              
+                    <a class="nav-link fw-bold" href="carrito.html">
+                        <i class="fas fa-shopping-bag" style="color: #9ce139;"></i>
+                    </a></li>
+                    <li class="nav-item mx-2">              
+                        <a class="nav-link fw-bold" href="micuenta.html">
+                            <i class="fas fa-user" style="color: #9ce139;"></i>
+                        </a>
+                         </li>
+                        
+
+                    
             </ul>
         </div>
     </div>
 </nav>
+
 
 <table width="100%">
     <tr>
@@ -46,7 +56,7 @@
         </td>
         <td style="width:50%">
             <div class="box">
-                <div class="ribbon right"><a href="#DVD.html"><span style="white-space: nowrap;">SALE EN DVDs</span></a></div>
+                <div class="ribbon right"><a href="dvds.html#compradvds"><span style="white-space: nowrap;">SALE EN DVDs</span></a></div>
             </div>
         </td>
     </tr>
@@ -58,42 +68,64 @@
     <div class="row">
         <div class="col-md-6 col-lg-7 order-md-last">
             <div class="bienvenida d-flex justify-content-center align-items-center text-center flex-column ">
-                <h1 class="display-md-1 p-b-2">BIENVENIDO AL MUNDO DE TOY STORY</h1>
+                <h1 class="display-md-1" id="bienvenida">
+                    BIENVENIDO AL MUNDO DE TOY STORY
+                </h1>
+                
+                
                 <h2 class="h-md-2">¿Todavía no visitaste nuestro parque de diversiones?</h2>
-                <button class="btn btn-lg btn-primary rounded-pill fw-bold">Ir a Toy Story Land</button>
+                <button class="btn btn-lg btn-primary rounded-pill fw-bold"><a href="toystoryland.html">Ir a Toy Story Land</a></button>
             </div>
         </div>
         <div class="col-md-6 col-lg-5 order-md-first">
             <div class="marciano">
                 <img class="alien w-100" src="resourses/toystoryparaimprimir9.png" alt="alien">
+                <div id="cartelCambiarFrase">
+                    <img id="botonCambiarFrase" src="resourses/nave espacial.png" width="30%" alt="Cambiar Frase" onclick="cambiarFrase()">
+                </div>
             </div>
         </div>
     </div>
 </div>
-
-<footer>
-    <div class="container">
-        <div class="row">
-            <div>
-                <ul class="list-unstyled">
-                    <li><img class="disney" src="resourses/disney.png"></li>
-                    <li><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></li>
-                    <li><a href="https://privacy.thewaltdisneycompany.com/en/" target="_blank">PRIVACY POLICY</a></li>
-                    <li><a href="https://disneytermsofuse.com/" target="_blank">TERMS OF USE</a></li>
-                    <li><a href="https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/your-us-state-privacy-rights/" target="_blank">YOUR US STATE PRIVACY RIGHTS</a></li>
-                    <li><a href="https://privacy.thewaltdisneycompany.com/en/for-parents/childrens-online-privacy-policy/" target="_blank">CHILDREN’S ONLINE PRIVACY POLICY</a></li>
-                    <li><a href="https://preferences-mgr.truste.com/?affiliateId=115&type=disneycolor" target="_blank">INTEREST-BASED ADS</a></li>
-                    <li>© 2023 TOY STORY</li>
-                </ul>
-            </div>
+<footer class="footer">
+    <div class="container text-center">
+        <img class="disney mx-auto" src="resourses/disney.png" alt="Disney Logo">
+        <div class="social-icons mb-3">
+            <a href="https://www.facebook.com/PixarToyStory/?locale=es_LA" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/toystory?lang=es" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/toystory/?hl=es" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
         </div>
+        <p class="copyr mb-0">© 2023 TOY STORY</p>
     </div>
 </footer>
 
-    
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+0aBVSW3j5g/j5z2L6Q6l5iOp5Jw5g2F5s5l5c5a5p5z5E5d5z5Z5u5r5f5G5u5v5W5f5E5Q5V5e5I5I5M5O5b5" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-Aq8SOaM5F5qfFe3pctto5AqKiI6Evo27aY/7Jw9+JkkFQp0eF+4Lb9S9S5g4BAXPOC" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script>
+    var frasesToyStory = [
+        "BIENVENIDO AL MUNDO DE TOY STORY",
+        "¡HASTA EL INFINITO Y MÁS ALLÁ!",
+        "ERES UN JUGUETE",
+        "YO SOY TU AMIGO FIEL",
+      "¡JUGUETES NUEVOS!",
+     "¡HAY UNA SERPIENTE EN MI BOTA!",
+
+       ];
+
+    function cambiarFrase() {
+        var bienvenida = document.getElementById('bienvenida');
+        var fraseAleatoria = FraseAleatoria();
+        bienvenida.innerText = fraseAleatoria;
+    }
+
+    function FraseAleatoria() {
+        var indiceAleatorio = Math.floor(Math.random() * frasesToyStory.length);
+        return frasesToyStory[indiceAleatorio];
+    }
+</script>
+
+</body>
+</html>
+
+
 </body>
 </html>

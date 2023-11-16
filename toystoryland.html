@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Toy Story</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gill+Sans+Display&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/38d3f0f792.js" crossorigin="anonymous"></script>
+</head>
+<body class="toystoryland">
+<div class="divisor"></div>
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img  id="bounce-logo" src="resourses/Toy_Story_logo.svg.png" alt="logo" class="img-fluid custom-logo">
+        </a>
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="resourses/pelota.png" alt="Menu" width="30" height="30">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item mx-2">
+                    <a class="nav-link fw-bold" href="shop.html">Shop</a>
+                </li>                
+                <li class="nav-item mx-2">
+                    <a class="nav-link fw-bold" href="toystoryland.html">TSL</a>
+                </li>
+                <li class="nav-item mx-2"> 
+                    <a class="nav-link fw-bold" href="dvds.html">DVDs</a>
+                </li> 
+                <li class="nav-item mx-2">              
+                    <a class="nav-link fw-bold" href="carrito.html">
+                        <i class="fas fa-shopping-bag" style="color: #9ce139;"></i>
+                    </a></li>
+                    <li class="nav-item mx-2">              
+                        <a class="nav-link fw-bold" href="micuenta.html">
+                            <i class="fas fa-user" style="color: #9ce139;"></i>
+                        </a>
+                         </li>
+                        
+
+                    
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="resourses/fondo.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <h1>Bienvenido a Toy Story Land</h1>
+                <p>¡Explora el mundo de Toy Story!</p>
+                <a href="#formtsl" class="btn btn-primary">Obtener tickets</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="resourses/toy-story-land-woody-v2-5x2.avif" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+</div>
+
+  <div class="container">
+    <div class="row mt-2">
+        <div class="col-md-6 col-lg-6 align-items-center d-flex">
+            <div class="image-container" style="height: 100%;">
+                <img src="resourses/slinky dog dash.jpg" alt="Slinky Dog Dash" class="img-fluid h-100">
+                <div class="overlay">
+                    <p>Slinky Dog Dash</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-6 align-items-center d-flex">
+            <div class="image-container" style="height: 100%;">
+                <img src="resourses/Alien-Swirling-Saucers_Full_32623.jpg" alt="Alien Swirling Saucers" class="img-fluid h-100">
+                <div class="overlay">
+                    <p>Alien Swirling Saucers</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-md-4 col-lg-5">
+            <div class="image-container" style="height: 100%;">
+                <img src="resourses/toy-story-mania.jpg" alt="Descripción de la imagen" class="img-fluid h-100">
+                <div class="overlay">
+                    <p>Toy Story Mania</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8 col-lg-7">
+            <div class="image-container" style="height: 100%;">
+                <img src="resourses/toy-story.png" alt="Descripción de la imagen" class="img-fluid h-100">
+                <div class="overlay">
+                    <p>Meet our characters</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="formtsl" class="formtsl container align-items-center"> 
+    <h2 class="text-center">Solicitud de Entrada - Toy Story Land</h2>
+    <form>
+        <div class="mb-3 row  mx-auto form-group">
+            <label for="nombre" class="col-sm-2 col-form-label">Nombre:</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre">
+            </div>
+        </div>
+        <div class="mb-3 row   mx-auto form-group">
+            <label for="email" class="col-sm-2 col-form-label">Email:</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" placeholder="Escribe tu email">
+            </div>
+        </div>
+        <div class="mb-3 row  mx-auto form-group">
+            <label for="fecha" class="col-sm-2 col-form-label">Fecha de Visita:</label>
+            <div class="col-sm-10">
+                <input type="date" class="form-control" id="fecha">
+            </div>
+        </div>
+        <div class="mb-3 row   mx-auto form-group">
+            <label for="entradas" class="col-sm-2 col-form-label">Número de Entradas:</label>
+            <div class="col-sm-10">
+                <input type="number" class="form-control" id="entradas" placeholder="Cantidad de entradas">
+            </div>
+        </div>
+        <div class="mb-3 row   mx-auto form-group">
+            <label for="comentarios" class="col-sm-2 col-form-label">Comentarios:</label>
+            <div class="col-sm-10">
+                <textarea class="form-control" id="comentarios" rows="4" placeholder="Déjanos tus comentarios"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-10">
+                <button type="submit" id="submitBtn" class="btn btn-primary">Enviar Solicitud</button>
+
+            </div>
+        </div>
+    </form>
+</div>
+
+<footer class="footer">
+    <div class="container text-center">
+        <img class="disney mx-auto" src="resourses/disney.png" alt="Disney Logo">
+        <div class="social-icons mb-3">
+            <a href="https://www.facebook.com/PixarToyStory/?locale=es_LA" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/toystory?lang=es" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/toystory/?hl=es" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class=" copyr mb-0">© 2023 TOY STORY</p>
+    </div>
+</footer>
+
+<script>
+    document.getElementById("submitBtn").onclick = function() {
+        alert("¡El formulario fue enviado con éxito!");
+    };
+</script>
+
+<script>
+    document.getElementById("bounce-logo").classList.add("bounce-logo");
+</script>
+  </body>
+</html>
